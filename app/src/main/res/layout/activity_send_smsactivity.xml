@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFB6CA"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="Phone Number"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:hint="Message"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/send_button"
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:backgroundTint="#D14675"
+        android:text="Send SMS" />
+
+    <Button
+        android:id="@+id/voice_input_button"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:backgroundTint="#D14675"
+        android:text="Voice Input" />
+
+</LinearLayout>
